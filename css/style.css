@@ -73,8 +73,8 @@ main section:nth-of-type(odd){
 }
 main section:nth-of-type(even){
     background-color: lightgray;
-    background-image: url(../img/img/wave.svg);
-    background-size: revert-layer;;
+    /*background-image: url(../img/img/wave.svg);
+    background-size: revert-layer;*/
 }
 
 /*Utilities*/
@@ -86,7 +86,6 @@ main section:nth-of-type(even){
     background-color: #3161e0;
     display: flex;
     align-items: center;
-
 }
 
 .navbar-menu{
