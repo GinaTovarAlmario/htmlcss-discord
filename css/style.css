@@ -116,8 +116,14 @@ main section:nth-of-type(even){
 .bg-color-lightaqua{
     background-color: #7fffd4;                           
 }
-.bg-color-darkblue{
+/*.bg-color-darkblue{
     background-color: #00008b;
+}*/
+/*bg-color header*/
+.bg-header{
+    background-image: url(../img/img/jumbo.png);
+    background-size: cover;
+    
 }
 .bg-color-lavander{
     background-color: #ee82ee;
