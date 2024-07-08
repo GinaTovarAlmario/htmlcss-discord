@@ -92,6 +92,12 @@ footer{
     padding: 3px 3px;
     text-align: center;
 }
+.flag{
+    background-image: url(../img/img/ita.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
 footer .left-block h2,
 footer .right-block a{
     color:#7289da;
