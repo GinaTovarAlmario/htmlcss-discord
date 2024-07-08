@@ -6,7 +6,7 @@
 }
 /*Generics*/
 body{
-    font-family: sans-serif;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 }
 /*Utils*/
@@ -25,17 +25,19 @@ header{
     background-color:#3161e0;
     padding: 10px 0;
 }
-.logo{
-
+a:link{
+    color: white;
+    text-decoration: none;
 }
 h1{
     margin-bottom: 20px;
 }
 button{
     padding: 10px 15px;
-    border-radius: 12px;
+    border-radius: 30px;
     border: white;
     margin-top: 10px;
+    font-weight: 700;
 }
 .button-white{
     color: black;
@@ -44,6 +46,7 @@ button{
 .button-black{
     color: white;
     background-color: black;
+    margin-left: 15px;
 }
 .fa-down-long{
     padding: 0 5px;
@@ -83,6 +86,7 @@ main section:nth-of-type(even){
     background-color: #3161e0;
     display: flex;
     align-items: center;
+
 }
 
 .navbar-menu{
