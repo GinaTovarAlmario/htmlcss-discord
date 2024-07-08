@@ -118,8 +118,7 @@ main section:nth-of-type(odd){
 }
 main section:nth-of-type(even){
     background-color: lightgray;
-    /*background-image: url(../img/img/wave.svg);
-    background-size: revert-layer;*/
+    /**background-image: url(../img/img/wave.svg);**/
 }
 /*Utilities*/
 .flex-container{
