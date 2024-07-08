@@ -20,7 +20,6 @@ body{
     color: white;
     text-align: center;
 }
-
 header{
     background-color:#3161e0;
     padding: 10px 0;
@@ -34,6 +33,7 @@ h1{
     font-size: xx-large;
 }
 h2{
+    text-align: center;
     font-weight: 600;
     font-size: xx-large;
     margin-bottom: 25px;
@@ -75,15 +75,13 @@ button{
 main section, main .slideshow-section{
     padding: 20px 0;
 }
-/**
-.info-1{
+.blocco-1{
     display: flex;
-    align-items: flex-start;
-}**/
-
+    flex-direction: column;
+    justify-content: center;
+}
 footer{
     background-color:#23272a;
-    color:#7289da;
     padding-top: 10px;
 }
 .footer-top{
@@ -94,12 +92,13 @@ footer{
     padding: 3px 3px;
     text-align: center;
 }
+footer .left-block h2,
+footer .right-block a{
+    color:#7289da;
+}
 .btn-lilac{
     background-color:#8ea1e1;
     color: white;
-}
-.flag{
-    
 }
 main section:nth-of-type(odd){
     background-color: white;
@@ -121,6 +120,9 @@ main section:nth-of-type(even){
 .navbar-menu{
     flex-grow: 1;
     text-align: center;
+}
+.cl-icon{
+    color: white;
 }
 /*Blocks dimension*/
 .flex-60{
