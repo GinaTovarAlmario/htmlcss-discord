@@ -33,7 +33,7 @@ h1{
     font-size: xx-large;
 }
 h2{
-   /**text-align: center;**/
+    text-align: center;
     font-weight: 600;
     font-size: xx-large;
     margin-bottom: 10px;
@@ -50,15 +50,15 @@ li{
     padding:8px 0;
     
 }
-section p{
+main p{
     font-size: medium;
     font-weight: 600;
+    margin-bottom: 15px;
 }
 button{
     padding: 10px 15px;
     border-radius: 30px;
     border: white;
-    margin-top: 10px;
     font-weight: 700;
 }
 .button-white{
@@ -165,9 +165,10 @@ main section:nth-of-type(even){
 .p-10{
     padding: 10px;
 }
-.py-10{
+.py-footer{
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: 25px;
 }
 
 /*bg-color header*/
