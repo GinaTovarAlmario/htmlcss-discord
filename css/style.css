@@ -17,11 +17,32 @@ body{
 .slideshow{
     max-width:500px ;
     margin: 0 auto;
+    color: white;
+    text-align: center;
 }
 
 header{
-    background-color: cyan;
+    background-color:#3161e0;
     padding: 10px 0;
+}
+.logo{
+
+}
+h1{
+    margin-bottom: 20px;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 12px;
+    border: white;
+}
+ .button-white{
+    color: black;
+    background-color: white;
+}
+.button-black{
+    color: white;
+    background-color: black;
 }
 
 main section, main .slideshow-section{
@@ -29,7 +50,7 @@ main section, main .slideshow-section{
 }
 
 footer{
-    background-color: black;
+    background-color: white;
     padding-top: 10px;
     border-top: 2px solid gray;
 }
@@ -44,7 +65,9 @@ main section:nth-of-type(odd){
     background-color: white;
 }
 main section:nth-of-type(even){
-    background-color: gray;
+    background-color: lightgray;
+    background-image: url(../img/img/wave.svg);
+    background-size: revert-layer;;
 }
 
 /*Utilities*/
@@ -53,8 +76,7 @@ main section:nth-of-type(even){
 }
 
 .menu-container{
-    min-height: 40px;
-    background-color: goldenrod;
+    background-color: #3161e0;
 }
 .flex-60{
     flex-basis: 60%;
@@ -116,9 +138,7 @@ main section:nth-of-type(even){
 .bg-color-lightaqua{
     background-color: #7fffd4;                           
 }
-/*.bg-color-darkblue{
-    background-color: #00008b;
-}*/
+
 /*bg-color header*/
 .bg-header{
     background-image: url(../img/img/jumbo.png);
