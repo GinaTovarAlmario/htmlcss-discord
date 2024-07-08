@@ -33,10 +33,10 @@ h1{
     font-size: xx-large;
 }
 h2{
-    text-align: center;
+   /**text-align: center;**/
     font-weight: 600;
     font-size: xx-large;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 h3{
     font-size: medium;
@@ -47,6 +47,8 @@ ul{
 }
 li{
     color: white;
+    padding:8px 0;
+    
 }
 section p{
     font-size: medium;
@@ -96,6 +98,11 @@ footer{
     background-image: url(../img/img/ita.png);
     background-size: 30px;
     background-repeat: no-repeat;
+}
+.fa-brands{
+    padding: 3px 5px;
+    margin-top: 10px;
+    font-size: x-large;
 }
 
 footer .left-block h2,
