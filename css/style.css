@@ -11,7 +11,7 @@ body{
 }
 /*Utils*/
 .container{
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .slideshow{
@@ -36,9 +36,8 @@ button{
     border-radius: 12px;
     border: white;
     margin-top: 10px;
-    margin-left: 10px;
 }
- .button-white{
+.button-white{
     color: black;
     background-color: white;
 }
@@ -84,9 +83,13 @@ main section:nth-of-type(even){
     background-color: #3161e0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
+.navbar-menu{
+    flex-grow: 1;
+    text-align: center;
+}
+/*Blocks dimension*/
 .flex-60{
     flex-basis: 60%;
  }
@@ -109,9 +112,7 @@ main section:nth-of-type(even){
 .flex-100{
     flex-basis:100%;
 }
-.text-center{
-    text-align: center;
-}
+/*Text alignment*/
 .text-right{
     text-align: right;
 }
